@@ -43,7 +43,7 @@ export function Feedback() {
         try {
 
             const response = await axios.post(
-                "http://127.0.0.1:5000/feedback",
+                "https://feedback-backend-60rz.onrender.com/feedback",
                 formData
             );
 
@@ -75,7 +75,7 @@ export function Feedback() {
         try {
 
             const response = await axios.get(
-                "http://127.0.0.1:5000/feedback"
+                "https://feedback-backend-60rz.onrender.com/feedback"
             );
 
             setFeedbackList(response.data);
