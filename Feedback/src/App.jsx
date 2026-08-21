@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import { Home } from "./pages/Home";
+import { Home } from "./Pages/Home";
 import { Events } from "./Pages/Events";
 import { Feedback } from "./Pages/Feedback";
 
